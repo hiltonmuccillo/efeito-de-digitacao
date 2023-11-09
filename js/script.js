@@ -1,6 +1,6 @@
 (function(){
 
-  let typedItem = document.querySelector('#typed');
+  var typedItem = document.querySelector('#typed');
 
   setInterval (function typed() {
  
