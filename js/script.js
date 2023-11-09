@@ -2,7 +2,7 @@
 
   var typedItem = document.querySelector('#typed');
 
-  setInterval(function typed(){
+  function typed(){
 
     // item 1
     setTimeout (function() {
@@ -47,8 +47,10 @@
     }, 17000)            
     setTimeout (function() {
         typedItem.innerHTML = "<span class='typed2'></span>";
-    }, 17900)
-    return typed;
-  }(), 18000);
+    }, 17900)    
+  };
+
+  typed();
+  setInterval(typed, 18000);
 
 })();
