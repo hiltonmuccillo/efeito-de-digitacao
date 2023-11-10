@@ -62,7 +62,7 @@ main {
 .cursor-blink {
   position: absolute;
   margin-left: 4px;
-  margin-top: 16px;
+  top: 16px;
   width: 11px;
   height: 38px;
   background-color: white;
@@ -73,7 +73,7 @@ main {
   .cursor-blink {
     width: 5px;
     height: 17px;
-    margin-top: 6px;
+    top: 6px;
   }
 }
 
