@@ -2,7 +2,7 @@
 
   function typed() {
 
-    let typedItem = document.querySelector('#typed');
+    var typedItem = document.querySelector('#typed');
  
     // item 1
     setTimeout (function() {

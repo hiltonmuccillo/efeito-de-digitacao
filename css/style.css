@@ -26,7 +26,14 @@ main {
 
 #typed {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
+  line-height: 66px;
+}
+
+@media (max-width: 768px) {
+  #typed {
+    line-height: 28px;
+  }
 }
 
 .typed1 {
