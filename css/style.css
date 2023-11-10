@@ -10,7 +10,13 @@ body {
   color: white;
 }
 
-main {  
+@media (max-width: 768px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
+main {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -61,6 +67,14 @@ main {
   height: 38px;
   background-color: white;
   animation: blink .75s step-end infinite;
+}
+
+@media (max-width: 768px) {
+  .cursor-blink {
+    width: 5px;
+    height: 17px;
+    margin-top: 6px;
+  }
 }
 
 @keyframes blink {
