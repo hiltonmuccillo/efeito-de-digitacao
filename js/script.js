@@ -16,6 +16,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";                        
     }, 5000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 5850);
 
@@ -31,6 +32,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 11000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";                                                        
     }, 11850);
 
@@ -46,6 +48,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 17000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 17850);
     
@@ -61,6 +64,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 23000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 23850);
 
@@ -76,6 +80,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 29000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 29850);
     
@@ -91,6 +96,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 35000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 35850);
     
@@ -106,6 +112,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 41000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 41850);
     
@@ -121,6 +128,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 47000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 47850);
     
@@ -136,6 +144,7 @@
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 53000);            
     setTimeout (function() {
+      typedItem.innerHTML = "<span class='typed1'></span>"; 
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 53850);
    
