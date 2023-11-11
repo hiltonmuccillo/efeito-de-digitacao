@@ -21,17 +21,17 @@
     // item 2
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed2'></span>";                        
-      typedItem.innerHTML = "<span class='typed1'>Já <span>atuei</span> na Menes LearnInsight.</span><span class='cursor-blink'></span>";
-      document.querySelector('#typed > .typed1 > span').className = "green";
-    }, 6000);            
+      typedItem.innerHTML = "<span class='typed1'>Já <span>atuei</span> na Menes Learninsight.</span><span class='cursor-blink'></span>";
+      document.querySelector('#typed > .typed1 > span').className = "green";                        
+    }, 6000);                                           
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed1'></span>";                        
-      typedItem.innerHTML = "<span class='typed2'>Já <span>atuei</span> na Menes LearnInsight.</span><span class='cursor-blink'></span>";                        
-      document.querySelector('#typed > .typed2 > span').className = "green";
+      typedItem.innerHTML = "<span class='typed2'>Já <span>atuei</span> na Menes Learninsight.</span><span class='cursor-blink'></span>";                        
+      document.querySelector('#typed > .typed2 > span').className = "green";                        
     }, 11000);            
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed1'></span>"; 
-      typedItem.innerHTML = "<span class='typed2'></span>";                                                        
+      typedItem.innerHTML = "<span class='typed2'></span>";
     }, 11850);
 
     // item 3
