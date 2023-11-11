@@ -1,5 +1,3 @@
-(function(){  
-
   const typed = () => {
 
     var typedItem = document.querySelector('#typed');
@@ -152,5 +150,3 @@
   
   typed();
   setInterval(typed, 54000);
- 
-})();
