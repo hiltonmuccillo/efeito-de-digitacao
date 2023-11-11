@@ -76,7 +76,7 @@
     }, 24000);            
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed1'></span>";
-      typedItem.innerHTML = "<span class='typed2'>Já <span >atuei</span> na Wunderman Thompson Brasil.</span><span class='cursor-blink'></span>";              
+      typedItem.innerHTML = "<span class='typed2'>Já <span>atuei</span> na Wunderman Thompson Brasil.</span><span class='cursor-blink'></span>";              
       document.querySelector('#typed > .typed2 > span').className = "green";
     }, 29000);            
     setTimeout (function() {
