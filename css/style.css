@@ -32,7 +32,7 @@ main {
 .typed1 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1s steps(60, end);
+  animation: typing 1200ms steps(60, end);
   white-space: nowrap;
   box-sizing: content-box;
 }
@@ -40,7 +40,7 @@ main {
 .typed2 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1s steps(60, end) reverse;    
+  animation: typing 1200ms steps(60, end) reverse;    
   white-space: nowrap;
   box-sizing: content-box;
 }
