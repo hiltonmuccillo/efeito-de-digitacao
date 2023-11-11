@@ -1,20 +1,32 @@
 (function(){
 
-  setInterval (function typed() {
+  // Função principal que controla o efeito de digitação
+  const typed = () => {
 
-    var typedItem = document.querySelector('#typed');
+    // Obtém a referência para o elemento com o id 'typed'
+    let typedItem = document.querySelector('#typed');
  
-    // item 1
-    setTimeout (function() {                              
+    // item 1 - Primeiro conjunto de mensagens para o efeito de digitação
+    setTimeout (function() {
+      // Define o conteúdo HTML para simular a digitação da primeira mensagem                            
       typedItem.innerHTML = "<span class='typed1'>Já <span>atuei</span> na Performance CG.</span><span class='cursor-blink'></span>";
+      // Muda a classe do primeiro filho do elemento '#typed > .typed1 > span' para 'green'
       document.querySelector('#typed > .typed1 > span').className = "green";                        
-    }, 0);                                           
+    }, 0);
+    
+    // Aguarda 5 segundos antes de passar para a próxima parte da animação
     setTimeout (function() {
-      typedItem.innerHTML = "<span class='typed1'></span>";                        
-      typedItem.innerHTML = "<span class='typed2'>Já <span>atuei</span> na Performance CG.</span><span class='cursor-blink'></span>";                        
+      // Limpa o conteúdo HTML anterior
+      typedItem.innerHTML = "<span class='typed1'></span>";
+      // Define o conteúdo HTML para simular a digitação da segunda mensagem                        
+      typedItem.innerHTML = "<span class='typed2'>Já <span>atuei</span> na Performance CG.</span><span class='cursor-blink'></span>";
+      // Muda a classe do primeiro filho do elemento '#typed > .typed2 > span' para 'green'                        
       document.querySelector('#typed > .typed2 > span').className = "green";                        
-    }, 5000);            
+    }, 5000);
+    
+    // Aguarda mais 1 segundo antes de limpar o conteúdo HTML
     setTimeout (function() {
+      
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 6000);
 
@@ -129,7 +141,13 @@
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 54000);
-    return typed;
-  }(), 54000);
+   
+  }
+  
+  // Chama a função typed() uma vez quando a página é carregada
+  typed();
+
+  // Configura um intervalo para chamar a função typed() a cada 54 segundos
+  setInterval(typed, 54000);
 
 })();
