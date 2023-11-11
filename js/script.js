@@ -1,7 +1,9 @@
 (function(){
 
+  // Função principal que controla o efeito de digitação
   const typed = () => {
 
+    // Obtém a referência para o elemento com o id 'typed'
     let typedItem = document.querySelector('#typed');
  
     // item 1
@@ -132,7 +134,10 @@
    
   }
   
+  // Chama a função typed() uma vez quando a página é carregada
   typed();
+
+  // Configura um intervalo para chamar a função typed() a cada 54 segundos
   setInterval(typed, 54000);
 
 })();
