@@ -1,12 +1,12 @@
 // Função autoexecutável para encapsular o escopo
-(function(){
-
-  // Obtém a referência para o elemento com o id 'typed'
-  var typedItem = document.querySelector('#typed');
+(function(){  
 
   // Função principal que controla o efeito de digitação
-  function typed () {    
- 
+  const typed = () => {
+
+    // Obtém a referência para o elemento com o id 'typed'
+    let typedItem = document.querySelector('#typed');
+
     // item 1 - Primeiro conjunto de mensagens para o efeito de digitação
     setTimeout (function() {
       // Define o conteúdo HTML para simular a digitação da primeira mensagem                            
@@ -27,7 +27,7 @@
     
     // Aguarda mais 1 segundo antes de limpar o conteúdo HTML
     setTimeout (function() {
-      
+      // Limpa o conteúdo HTML
       typedItem.innerHTML = "<span class='typed2'></span>";
     }, 6000);
 
@@ -141,7 +141,7 @@
     }, 53000);            
     setTimeout (function() {
       typedItem.innerHTML = "<span class='typed2'></span>";
-    }, 54000);
+    }, 53900);
    
   }
   
