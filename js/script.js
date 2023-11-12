@@ -1,10 +1,11 @@
+// Função autoexecutável para encapsular o escopo
 (function(){
 
-  // Função principal que controla o efeito de digitação
-  const typed = () => {
+  // Obtém a referência para o elemento com o id 'typed'
+  var typedItem = document.querySelector('#typed');
 
-    // Obtém a referência para o elemento com o id 'typed'
-    let typedItem = document.querySelector('#typed');
+  // Função principal que controla o efeito de digitação
+  function typed () {    
  
     // item 1 - Primeiro conjunto de mensagens para o efeito de digitação
     setTimeout (function() {
