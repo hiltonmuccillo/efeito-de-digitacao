@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body {
+body {  
   background-color: black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 3em;
@@ -21,7 +21,7 @@ main {
   width: 100vw;
   height: 100vh;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 #typed {
@@ -32,17 +32,17 @@ main {
 .typed1 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1200ms steps(60, end);
+  animation: typing 1000ms steps(60, end) forwards 1;
   white-space: nowrap;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .typed2 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1200ms steps(60, end) reverse;    
+  animation: typing 1000ms steps(60, end) forwards reverse 1;
   white-space: nowrap;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 @keyframes typing {
@@ -57,6 +57,14 @@ main {
 
 .green {
     color: #8bc34a;
+}
+
+.yellow {
+    color: #ffc107;
+}
+
+.blue {
+    color: #02bfe7; 
 }
 
 .cursor-blink {
@@ -88,4 +96,3 @@ main {
       opacity: 1;        
   }
 }
-
