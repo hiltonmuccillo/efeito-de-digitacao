@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body {  
+body {
   background-color: black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 3em;
@@ -16,17 +16,22 @@ body {
   }
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 main {
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 #typed {
   position: relative;
-  display: inline-block;
+  display: inline-block; 
 }
 
 .typed1 {
@@ -56,15 +61,15 @@ main {
 }
 
 .green {
-    color: #8bc34a;
+  color: #8bc34a;
 }
 
 .yellow {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 .blue {
-    color: #02bfe7; 
+  color: #02bfe7; 
 }
 
 .cursor-blink {
@@ -96,3 +101,15 @@ main {
       opacity: 1;        
   }
 }
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+}
+
+#linkedin {
+  padding-left: 2px;
+  vertical-align: sub;
+}
+
