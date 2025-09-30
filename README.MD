@@ -21,7 +21,7 @@ Um **efeito de digitação customizado em JavaScript** criado para exibir mensag
 
 Veja o efeito em ação:
 
-[![Typed Demo](./images/demo-screenshot.png)](https://hiltonmuccillo.com/typed/)  
+[![Typed Demo](./images/demo-screenshot-new.png)](https://hiltonmuccillo.com/typed/)  
 [Link para Demo](https://hiltonmuccillo.com/typed/)  
 [Link no CodePen](https://codepen.io/hiltonmuccillo/pen/OJNRLdO)
 
