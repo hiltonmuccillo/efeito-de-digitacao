@@ -26,18 +26,18 @@ main {
   width: 100vw;
   height: 100vh;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 #typed {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .typed1 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1000ms steps(60, end) forwards 1;
+  animation: typing 1000ms steps(20, end) forwards 1;
   white-space: nowrap;
   box-sizing: border-box;
 }
@@ -45,18 +45,18 @@ main {
 .typed2 {
   display: inline-block;
   overflow: hidden;
-  animation: typing 1000ms steps(60, end) forwards reverse 1;
+  animation: typing 1000ms steps(20, end) forwards reverse 1;
   white-space: nowrap;
   box-sizing: border-box;
 }
 
 @keyframes typing {
   0% {
-      width: 0%;        
+    width: 0%;
   }
 
-  100% {        
-      width: 100%;        
+  100% {
+    width: 100%;
   }
 }
 
@@ -69,7 +69,7 @@ main {
 }
 
 .blue {
-  color: #02bfe7; 
+  color: #02bfe7;
 }
 
 .cursor-blink {
@@ -94,11 +94,11 @@ main {
 
   0%,
   100% {
-      opacity: 0;              
+    opacity: 0;
   }
 
   50% {
-      opacity: 1;        
+    opacity: 1;
   }
 }
 
@@ -112,4 +112,3 @@ footer {
   padding-left: 2px;
   vertical-align: sub;
 }
-
